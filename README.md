@@ -4,7 +4,7 @@ MindSpace is a private, production-grade conversational AI journaling sanctuary 
 
 ---
 
-## 🏛️ System Architecture & Flow Diagrams
+## System Architecture & Flow Diagrams
 
 ### 1. End-to-End System Architecture
 
@@ -103,7 +103,7 @@ User Types Reflection ───► UI Appends Optimistic Bubble ───► POS
 
 ---
 
-## 🛡️ Agentic Threat Summary & Countermeasures
+## Agentic Threat Summary & Countermeasures
 
 | Threat Zone | Identified Scenario Risk | Mitigating Countermeasure |
 | :--- | :--- | :--- |
@@ -115,7 +115,7 @@ User Types Reflection ───► UI Appends Optimistic Bubble ───► POS
 
 ---
 
-## 💡 Implementation Pillars: Usability, Stability & Security
+## Implementation Pillars: Usability, Stability & Security
 
 ### 1. Usability: Intuitive Design, Accessibility & Seamless UX
 
@@ -178,7 +178,7 @@ Stability engineering ensures that MindSpace never crashes, loses user work, or 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── .env.example              # Template for environment variables (GEMINI_API_KEY, etc.)
@@ -218,7 +218,7 @@ Stability engineering ensures that MindSpace never crashes, loses user work, or 
 
 ---
 
-## 💻 Local Development & Testing Guide
+## Local Development & Testing Guide
 
 ### 1. Prerequisites
 * **Node.js**: `v18.0.0` or higher (Node 20+ recommended)
@@ -319,7 +319,7 @@ curl -X POST http://localhost:3000/api/journal/summary \
 
 ---
 
-## 🔒 Firestore Security Rules
+## Firestore Security Rules
 
 Deploy the following security rules to Cloud Firestore:
 
@@ -348,7 +348,7 @@ service cloud.firestore {
 
 ---
 
-## 🚀 Google Cloud Run Deployment & Secret Management
+## Google Cloud Run Deployment & Secret Management
 
 ### 1. Prerequisites
 * Google Cloud SDK (`gcloud` CLI) installed and authenticated.
@@ -400,7 +400,7 @@ gcloud run services update mindspace-journal \
 
 ---
 
-## 🧪 Functional Walkthrough & Test Suite
+## Functional Walkthrough & Test Suite
 
 | Test ID | Area | Interaction Flow | Expected Outcome |
 | :--- | :--- | :--- | :--- |
