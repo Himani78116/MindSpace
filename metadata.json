@@ -2,5 +2,7 @@
   "name": "MindSpace - AI Journaling & Reflection",
   "description": "A private, mindful AI journaling and reflection workspace with multi-turn conversations, adaptive reflection modes, and persistent Firestore memory powered by Gemini.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
